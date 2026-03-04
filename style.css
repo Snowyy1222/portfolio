@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7dddd;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: #000000;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 100px 30px;
+    text-align: center;
+}
+
+#hero {
+    color: white;
+    background: rgb(130, 130, 187);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 100px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#omnie {
+    background-color: #e7dddd;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#omnie h2 {
+    margin-bottom: 45px;
+    font-size: 60px;
+}
+
+#omnie p {
+    font-size: 20px;
+}
+
+#zainteresowania {
+    background: rgb(130, 130, 187);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#zainteresowania h2 {
+    margin-bottom: 45px;
+    font-size: 60px;
+}
+
+#zainteresowania p {
+    font-size: 20px;
+}
+
+#kontakt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#kontakt label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#kontakt input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px solid  #000000;
+}
