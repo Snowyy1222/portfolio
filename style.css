@@ -47,16 +47,15 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 #hero h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 100px;
     letter-spacing: 5px;
-    background: #274060;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    color: #274060;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 #hero p {
@@ -64,6 +63,12 @@ section {
     max-width: 800px;
     margin: 10px auto;
     color: #335C81;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 #omnie {
@@ -77,7 +82,7 @@ section {
     margin-bottom: 45px;
     font-size: 60px;
     color: #274060;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 #omnie p {
@@ -98,7 +103,7 @@ section {
     margin-bottom: 45px;
     font-size: 60px;
     color: #274060;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 #zainteresowania p {
@@ -123,7 +128,7 @@ section {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    border: 2px solid  #000000;
+    border: 2px solid #000000;
 }
 
 #kontakt form {
@@ -148,7 +153,7 @@ section {
     margin-bottom: 45px;
     font-size: 60px;
     color: #274060;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 footer {
@@ -167,60 +172,75 @@ footer p {
     nav ul {
         gap: 60px;
     }
+
     #hero h1 {
         font-size: 70px;
     }
+
     h2 {
         font-size: 45px;
     }
+
     p {
         font-size: 18px;
     }
 }
 
 @media (max-width: 600px) {
-    nav ul  {
+    nav ul {
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
+
     header {
         padding: 10px;
     }
+
     #hero h1 {
         font-size: 50px;
     }
+
     #hero p {
         font-size: 18px;
     }
+
     h2 {
         font-size: 35px;
     }
+
     p {
         font-size: 16px;
         padding: 0 10px;
     }
+
     section {
         padding: 60px 20px;
     }
+
     #zainteresowania {
         min-height: auto;
         padding: 60px 20px;
     }
+
     #zainteresowania h2 {
         font-size: 45px;
     }
+
     #zainteresowania p {
         font-size: 16px;
         padding: 0 10px;
     }
+
     #kontakt form {
         width: 100%;
         max-width: 350px;
     }
+
     #kontakt input {
         width: 100%;
     }
+
     #kontakt button {
         width: 100%;
     }
